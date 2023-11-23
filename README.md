@@ -18,16 +18,16 @@
 Disclaimer: Data ini berisi informasi dari sensus California tahun 1990. Jadi, meskipun hal ini mungkin tidak membantu Anda dalam memprediksi harga rumah saat ini (2023), hal ini memberikan kumpulan data pengenalan yang dapat diakses untuk mengajari orang-orang tentang dasar-dasar pembelajaran machine learning.
 
 Pasar properti, seperti di California, memberikan peluang menarik bagi para data analis untuk menganalisis dan memprediksi arah pergerakan harga properti. Prediksi harga properti menjadi semakin penting dan bermanfaat. Harga properti adalah indikator yang baik baik dari kondisi pasar secara keseluruhan maupun kesehatan ekonomi suatu negara. Dengan mempertimbangkan data yang disediakan, kita sedang mengelola kumpulan besar catatan penjualan properti yang tersimpan dalam format yang tidak diketahui dan dengan masalah kualitas data yang tidak diketahui.
-**Problem Statement**
 
+**Problem Statement**
 Dalam menghadapi dinamika pasar properti, khususnya di California, tantangan utama yang dihadapi adalah bagaimana memanfaatkan dataset sensus California tahun 1990 untuk mengembangkan model prediksi harga properti. Meskipun data ini tidak mencerminkan kondisi pasar saat ini (2023), pengembangan model prediksi memiliki potensi untuk memberikan wawasan berharga terkait faktor-faktor yang memengaruhi harga properti dan trennya.
 
 Tujuan utama adalah **membangun model machine learning yang dapat memprediksi harga properti berdasarkan karakteristik tertentu, seperti lokasi geografis, umur rumah, jumlah kamar, pendapatan median, dan variabel lainnya yang terdapat dalam dataset**. Model ini diharapkan dapat memberikan pemahaman yang lebih dalam tentang faktor-faktor apa yang memiliki dampak signifikan terhadap harga properti.
+
 **Goals**
-
 Berdasarkan problem statement di atas, hasil dari model ini diharapkan dapat **memberikan wawasan strategis kepada para pemangku kepentingan di pasar properti, membantu pengambilan keputusan investasi, dan meningkatkan pemahaman tentang tren pasar properti di California**.
-**Analytic Approach**
 
+**Analytic Approach**
 Agar dapat memperkirakan nilai pasar sebuah properti di California, informasi-informasi berikut ini diperlukan:
 
 1. Karakteristik Kawasan dan Lingkungan:
@@ -44,16 +44,16 @@ Agar dapat memperkirakan nilai pasar sebuah properti di California, informasi-in
 - Proksimitas dengan Laut (Ocean Proximity)
 - Total Ruangan (Total Rooms)
 - Total Kamar Tidur (Total Bedrooms)
-**Modelling**
 
+**Modelling**
 Berikut teknik permodelan yang akan digunakan dalam analisis ini:
 1. Linear Regression
 2. Decission Tree Regressor
 3. KNN Regressor
 4. Random Forest
 5. XGBoost Regressor
-**Metric Evaluation**
 
+**Metric Evaluation**
 Evaluasi metrik yang akan digunakan adalah sbb:
 1. RMSE : nilai rataan akar kuadrat dari error
 2. MAE  : rataan nilai absolut dari error
